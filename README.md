@@ -3,8 +3,8 @@ A script to clear you Twitter accuount and start fresh.
 
 
 ## Requirements:
-> Python: 3.10.2  
-> Selenium: 4.1.0  
+> Python: 3.9.7   
+> Selenium: 3.141.0  
 > Latest Chrome drivers   
 > Working with Twitter(31.01.2022.)
 
