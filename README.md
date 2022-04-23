@@ -6,7 +6,8 @@ A script to clear you Twitter accuount and start fresh.
 > Python: 3.9.7   
 > Selenium: 3.141.0  
 > Latest Chrome drivers   
-> Working with Twitter(31.01.2022.)
+> Conda 4.11.0     
+> Working with Twitter(31.01.2022.)    
 
 *Two-Factor Authenitcation should be disabled
 
@@ -26,6 +27,6 @@ After installing latest versions of Python and Selenium you need to get drivers 
 
 
 ## Documentation:
->https://chromedriver.chromium.org/home
->https://www.selenium.dev/selenium/docs/api/py/index.html
+>https://chromedriver.chromium.org/home    
+>https://www.selenium.dev/selenium/docs/api/py/index.html   
 >https://selenium-python.readthedocs.io/installation.html
