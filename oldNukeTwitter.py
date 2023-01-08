@@ -10,7 +10,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 import math
 
-os.environ['PATH'] += r";C:/SeleniumDrivers/"
+os.environ['PATH'] += r";C:\\SeleniumDrivers\\chromedriver_win32"
 
 def check_exists_by_xpath(xpath):
     try:
@@ -25,7 +25,7 @@ pas="bottest123"
 usern="lazarmbottest"
 profile="https://twitter.com/"+usern
 driver = webdriver.Chrome() 
-driver.set_window_position(-10000,0)
+# driver.set_window_position(-10000,0)
 driver.get("https://twitter.com/i/flow/login")
 wait = WebDriverWait(driver, 60)
 
@@ -78,9 +78,9 @@ driver.refresh()
 num_tweets=len(tweets)/3;
 num_tweets=math.floor(num_tweets)
 
-for tweet in tweets:
+# for tweet in tweets:
     
 
 
-print(len(tweets))
-time.sleep(10)
+# print(len(tweets))
+# time.sleep(10)
